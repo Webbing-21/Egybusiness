@@ -1,0 +1,140 @@
+/*  */
+.footer-section  {
+    background-image: url("../../Assets/photoes/unsplash_4Hmj9gkyM6c.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+    
+  }
+  .footer-section .container{
+
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+    /* margin-top: 30px; */
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-around;
+    overflow-x: hidden;
+
+
+
+  }
+  .footer-section .social{
+    max-width: 300px;
+  }
+.footer-section .social h1{
+    font-size: 1.5rem;
+    color: #FF820E;
+}
+
+.footer-section .social .icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 30px;
+}
+.footer-section .social .icons .icon{
+    padding: 10px;
+    background-color: #FF820E;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+}
+.footer-section li {
+    color: rgb(134, 133, 133);
+}
+p{
+    color: rgb(134, 133, 133);  
+}
+.footer-section ul{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.footer-section h1{
+    font-size: 20px;
+}
+
+
+
+/* Medium screens (tablets, small laptops) */
+@media screen and (max-width: 992px) {
+  .footer-section .container {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 20px;
+  }
+
+  .footer-section .social,
+  .footer-section .support,
+  .footer-section .us {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-section h1 {
+    font-size: 1.25rem;
+  }
+
+  .footer-section .social .icons {
+    justify-content: flex-start;
+  }
+
+  .footer-section .social .icons .icon {
+    font-size: 24px;
+  }
+}
+
+/* Small screens (mobile devices) */
+@media screen and (max-width: 768px) {
+  .footer-section .container {
+    padding: 15px;
+  }
+
+  .footer-section h1 {
+    font-size: 1rem;
+  }
+
+  .footer-section .social p {
+    font-size: 0.875rem;
+  }
+
+  .footer-section ul {
+    gap: 0.25rem;
+  }
+
+  .footer-section .social .icons .icon {
+    padding: 8px;
+    font-size: 20px;
+  }
+
+  .footer-section .social .icons {
+    gap: 0.5rem;
+  }
+}
+
+/* Extra small screens (very small mobile devices) */
+@media screen and (max-width: 576px) {
+  .footer-section .container {
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .footer-section h1 {
+    font-size: 0.875rem;
+  }
+
+  .footer-section .social p {
+    font-size: 0.75rem;
+  }
+
+  .footer-section ul {
+    font-size: 0.875rem;
+  }
+}

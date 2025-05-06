@@ -1,0 +1,254 @@
+.buyer .baymentchek {
+  /* width: 60%; */
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.buyer .line {
+  height: 3px;
+  width: 190px;
+  margin-top: 20px;
+  background-color: #cccccc;
+}
+
+.buyer .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 3px solid #cccccc;
+}
+
+.buyer .inner {
+  display: flex;
+}
+
+.buyer .active-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 3px solid #61db74;
+}
+
+.buyer .active-circle i {
+  color: #61db74;
+  margin-top: 9px;
+  font-size: 20px;
+}
+
+.buyer .two,
+.three {
+  color: #cccccc;
+  margin-top: 5px;
+}
+
+.buyer .first {
+  display: flex;
+}
+
+.buyer .ppppp {
+  top: 100px;
+  left: 460px;
+}
+
+.buyer .ppppp2 {
+  top: 100px;
+  left: 710px;
+}
+.buyer .ppppp3 {
+  top: 100px;
+  right: 440px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+.buyer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.buyer .infoooooo {
+  /* width: 60%; */
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buyer h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.buyer .form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.buyer .form-group-buyer {
+  /* width: 100%; */
+}
+
+.buyer .form-group-buyer label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.buyer .form-group-buyer input,
+.buyer .form-group-buyer select {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.buyer input::placeholder {
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+.buyer .note {
+  width: 130% !important;
+  border-radius: 5px;
+  height: 70px !important;
+}
+.buyer .adress {
+  width: 150% !important;
+}
+.buyer .state {
+  background-color: rgb(212, 212, 212);
+}
+
+.buyer .spanbutton {
+  color: white;
+  background-color: #ff820e;
+  padding: 4px 60px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.buyer .ssssss {
+  text-align: center;
+  /* margin-top: 50px; */
+}
+/* ////////////////////////////mdiaquery/////////////////////////////////////// */
+
+@media screen and (max-width: 759px) {
+  .buyer .PaymentContainer {
+    width: 100% !important;
+  }
+
+  .buyer .infoooooo {
+    width: 100% !important;
+  }
+  .buyer .note {
+    width: 100% !important;
+    border-radius: 5px;
+    height: 70px !important;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .buyer .PaymentContainer {
+    width: 100% !important;
+  }
+
+  .buyer .infoooooo {
+    width: 100% !important;
+  }
+
+  .buyer .form-group-buyer input,
+  .buyer .form-group-buyer select {
+    width: 100% !important;
+  }
+
+  .buyer .form-row {
+    width: 100% !important;
+    display: inline-block;
+  }
+
+  .buyer .form-group-buyer {
+    width: 100%;
+  }
+
+  .buyer .ssssss {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+}
+
+/* ////////////////////////////////////////////////// */
+
+.buyer .circle {
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  /* padding: 10px; */
+}
+.buyer .circles {
+  width: 60%;
+  position: relative;
+}
+.buyer .circle::before {
+  /* content:" "; */
+  /* display: block; */
+  height: 30px;
+  width: 780px;
+  position: absolute;
+  top: 50%;
+  /* left: 52px; */
+  background: #6f6f6f;
+}
+.buyer .btns {
+  display: flex;
+  flex-direction: column;
+}
+.buyer .btn {
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 425px) {
+  /* /Small smartphones [325px -> 425px]/ */
+  .buyer .circle {
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    /* padding: 10px; */
+  }
+  .buyer .circles {
+    width: 100%;
+    position: relative;
+  }
+  .buyer .circle::before {
+    content: " ";
+    display: block;
+    height: 30px;
+    width: 780px;
+    position: absolute;
+    /* top: 50%; */
+    /* left: 52px; */
+    background-color: blue;
+  }
+  .buyer .btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .buyer .btn {
+    margin-bottom: 15px;
+  }
+}

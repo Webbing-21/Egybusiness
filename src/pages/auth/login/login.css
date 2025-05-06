@@ -1,0 +1,111 @@
+
+  .login-container {
+    display: flex;
+    height: calc(100vh - 70px);
+  }
+  
+  .login-left,
+  .login-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  .login-left {
+    background-color: #fff;
+    color: #333;
+    width: 100%;
+    margin: 140px 0;
+  }
+  
+  .login-right {
+    background-image: url("../../../Assets/login/rigister.png"); 
+    background-size: cover;
+    color: #fff;
+  }
+  
+  
+  h2 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+    color: rgb(160, 158, 158);
+    margin: 1rem 0;
+  }
+  
+  .or {
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  form.login-form.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* form.login-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+  } */
+  
+  .forgot-password {
+    color: orange;
+    margin-bottom: 20px;
+    text-align: right;
+    cursor: pointer;
+  }
+  
+  .login-btn,
+  .signup-btn {
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+  }
+/*   
+  .signup-btn {
+    background-color: orange;
+    border: 2px solid orange;
+  }
+  
+  .signup-btn:hover {
+    background-color: transparent;
+    color: #fff;
+  } */
+  
+  @media (max-width: 768px) {
+    .login-container {
+      flex-direction: column;
+    }
+  
+    .login-right {
+      display: none;
+    }
+  
+    .login-left {
+      flex: none;
+      width: 100%;
+    }
+      
+  form.login-form.login-form {
+    max-width: 85%;
+  }
+  }
+  
+ 
