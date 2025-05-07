@@ -6,7 +6,7 @@ import axios from "axios";
 // دالة API لإضافة كاتجوري
 const addCategory = async (formData) => {
   const response = await axios.post(
-    "https://194.164.77.238:8001/api/category",
+    "http://194.164.77.238:8001/api/category",
     formData,
     {
       headers: {
